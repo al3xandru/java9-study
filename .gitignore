@@ -24,3 +24,6 @@ hs_err_pid*
 # Project directories
 .idea/
 target/
+
+# My notes file
+Notes.md
