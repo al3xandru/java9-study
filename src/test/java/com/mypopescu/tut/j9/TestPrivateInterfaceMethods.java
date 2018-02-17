@@ -16,9 +16,9 @@ import static org.junit.jupiter.api.Assumptions.assumeTrue;
 public class TestPrivateInterfaceMethods {
     @Test
     public void testJava9() {
+        assumeTrue(Runtime.version().major() >= 9,
+                   "An interface with private methods wouldn't compile prior to Java 9");
         PrivateInterfaceMethodsInJava9 p = new PrivateInterfaceMethodsInJava9() { };
-        assumeTrue(System.getProperty("java.version").startsWith("9."),
-                String.format("Test runs only in Java 9+: %s", System.getProperty("java.version")));
         assertTrue(p.evenSum(1, 1, 1, 1));
     }
 
