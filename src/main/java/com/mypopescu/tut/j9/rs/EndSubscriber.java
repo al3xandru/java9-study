@@ -30,9 +30,8 @@ public class EndSubscriber<T> implements Subscriber<T> {
 
     @Override
     public void onSubscribe(Subscription subscription) {
-        this.subscription = subscription;
         this.subscribed = true;
-        subscription.request(1);
+        (this.subscription = subscription).request(1);
     }
 
     @Override
