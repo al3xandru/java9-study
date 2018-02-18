@@ -13,6 +13,18 @@ Examples included:
 5.  [Stack walking API](/src/test/java/com/mypopescu/tut/j9/TestStackWalker.java)
 6.  [`Runtime.version()`](/src/test/java/com/mypopescu/tut/j9/TestVersionApi.java)
 
+## Todos
+
+- [ ] [New Stream collectors](http://www.baeldung.com/java9-stream-collectors)
+- [ ] [CompletableFuture API improvements](http://www.baeldung.com/java-9-completablefuture)
+- [ ] [OS Processes](https://blog.codefx.org/java/java-9-tutorial/#OS-Processes) and [Process API improvements](http://www.baeldung.com/java-9-process-api)
+- [ ] Dates [1](http://www.baeldung.com/java-between-dates) and [2](http://www.baeldung.com/java-date-to-localdate-and-localdatetime)
+- [ ] [`java.util.Objects` additions](http://www.baeldung.com/java-9-objects-new)
+- [ ] [`java.lang.invoke.VarHandle` API](http://www.baeldung.com/java-variable-handles)
+- [ ] [Compact Strings](http://www.baeldung.com/java-9-compact-string)
+- [ ] [Multi-release JARs](https://blog.codefx.org/java/java-9-tutorial/#Multi-Release-JARs)
+- [ ] Java Platform Module System and [Introduction to Project Jigsaw](http://www.baeldung.com/project-jigsaw-java-modularity)
+
 ## License
 
 MIT
